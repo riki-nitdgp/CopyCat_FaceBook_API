@@ -13,9 +13,9 @@ class TextToImage {
         $this->img = imagecreatetruecolor($imgWidth, $imgHeight);
 
         //create some colors
-        $white = imagecolorallocate($this->img, 255, 255, 255);
+        $white = imagecolorallocate($this->img, 200, 190, 140);
         $grey = imagecolorallocate($this->img, 128, 128, 128);
-        $black = imagecolorallocate($this->img, 0, 0, 0);
+        $black = imagecolorallocate($this->img, 255, 0, 0);
         imagefilledrectangle($this->img, 0, 0, $imgWidth - 1, $imgHeight - 1, $white);
 
         //break lines
