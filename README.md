@@ -14,3 +14,31 @@ Facebook API to Convert Any Your Favorite  Quote In Image And Post In On Your FB
 # Description
 
 ## SDK
+
+It contains all the necessary file required for creating facebook API Download link: https://codeload.github.com/facebook/php-graph-sdk/zip/5.0.0
+
+## Facebook API Configuration (fbConfig.php)
+
+The fbConfig.php file is used to configure Facebook SDK and connect to Facebook Graph API. Specify your Facebook App ID ($appId), App Secret ($appSecret), Callback URL ($redirectURL), and Permissions ($fbPermissions) to connect with Facebook API and working with SDK.
+
+Note that: The access token must have the publish_actions permission to post on Facebook wall.
+
+## Converting String Image (image_conv.php)
+
+The inmage_conv.php file is used to convert any string to an image, In includes utliti function for save image as jpg or png .
+
+# Posting To Facebook (post.php)
+
+Include the fbConfig.php file to connect Facebook API and get the access token.
+
+If FB access token ($accessToken) is available, the following will happen.
+
+* Access token will be stored in the session that will be used for next time API calls.
+* The page include image_conv.php, at first String will be converted to image and store  in a image directory by calling function
+* Picture will be submitted to Facebook wall.
+* Post submission status will be shown.
+* If FB access token ($accessToken) is not available, the Facebook Login URL will be generated and the user would be redirected to the   FB login page.
+
+# Result 
+
+
