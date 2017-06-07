@@ -2,10 +2,21 @@
 Facebook API to Convert Any Your Favorite  Quote In Image And Post In On Your FB Wall
 
 # Setup
-
+*  Login to Facebook
+* Developer Account link: https://developers.facebook.com
+* Create new Facebook app
+* Choose Platform (Web, Android, IOS etc)
+* Choose a Name
+* Follow "Quick Start" Steps
+* App ID
+* Protect your App Secret
+* Contact Email
+* App Details
+* Disable Development Mode
 * Install XAMMP Server link:https://www.apachefriends.org/download.html
 * Create a Ditectory C://Xammp/dashboard/CopyCat_fb.
 * And Copy all the file to CopyCat_fb.
+
 
 # File Structure
 
