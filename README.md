@@ -41,4 +41,10 @@ If FB access token ($accessToken) is available, the following will happen.
 
 # Result 
 
+![screenshot 16](https://user-images.githubusercontent.com/17308141/26864936-65543dca-4b0f-11e7-8219-0e605e28ecb1.png)
+![screenshot 17](https://user-images.githubusercontent.com/17308141/26864935-6553550e-4b0f-11e7-8957-395c3cdafae0.png)
+![screenshot 18](https://user-images.githubusercontent.com/17308141/26864938-65578a66-4b0f-11e7-9448-c734c9ab7772.png)
+![screenshot 19](https://user-images.githubusercontent.com/17308141/26864937-65579cfe-4b0f-11e7-896e-ac7a6f278269.png)
+
+
 
