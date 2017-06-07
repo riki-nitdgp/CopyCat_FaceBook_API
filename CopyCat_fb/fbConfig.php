@@ -1,10 +1,9 @@
 <?php
-
 if(!session_id()){
     session_start();
 }
 
-// Include the autoloader provided in the SDK
+// Include the autoloader provided in the SDK V.9
 require_once('sdk/src/Facebook/autoload.php');
 
 // Include required libraries
@@ -20,6 +19,7 @@ $appSecret     = '6c977db0c731ef60a6aeb9971331eba9'; //Facebook App Secret
 $redirectURL   = 'http://localhost/dashboard/CopyCat_fb/'; //Callback URL
 $fbPermissions = array('publish_actions'); //Facebook permission
 
+//creating class
 $fb = new Facebook(array(
     'app_id' => $appId,
     'app_secret' => $appSecret,
